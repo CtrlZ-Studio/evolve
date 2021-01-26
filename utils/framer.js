@@ -26,23 +26,6 @@ export const pageVariants = {
   },
 };
 
-export const parentVariants = {
-  initial: {
-    y: 40,
-    opacity: 0,
-  },
-  animate: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 1,
-      ease: mainEasing,
-      when: 'beforeChildren',
-      staggerChildren: 0.3,
-    },
-  },
-};
-
 export const childVariants = {
   initial: {
     y: -20,

@@ -13,9 +13,6 @@ const Footer = () => {
           Ctrl-Z Studio
         </a>
       </div>
-      <div>
-        <Image src="/logo.svg" layout="responsive" width={4} height={4} />
-      </div>
     </div>
   );
 };

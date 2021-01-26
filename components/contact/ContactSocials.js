@@ -1,16 +1,8 @@
-import { motion } from 'framer-motion';
-
 import SocialItem from 'components/contact/SocialItem';
-import PageWrapper from 'components/shared/PageWrapper';
 
 const ContactSocials = () => {
   return (
-    <motion.section
-      className="w-full lg:w-2/5 lg:h-screen flex flex-col space-y-6 lg:space-y-12 2xl:space-y-14 justify-center border border-gray-300"
-      initial="initial"
-      animate="animate"
-      exit={{ opacity: 0 }}
-    >
+    <section className="w-full lg:w-2/5 lg:h-screen flex flex-col space-y-6 lg:space-y-12 2xl:space-y-14 justify-center">
       <SocialItem
         label="email."
         link="mailto:lokismind@gmail.com"
@@ -24,7 +16,7 @@ const ContactSocials = () => {
         link="https://www.instagram.com/evolve_material_deportivo/"
         name="@evolve_material_deportivo"
       />
-    </motion.section>
+    </section>
   );
 };
 

@@ -2,9 +2,9 @@ import Head from 'next/head';
 
 import { WEB_NAME } from 'utils/constants';
 
-import HeroPagina from 'components/shared/PageHero';
+import PageHero from 'components/shared/PageHero';
 import PageWrapper from 'components/shared/PageWrapper';
-import ContactoRedes from 'components/contact/ContactSocials';
+import ContactSocials from 'components/contact/ContactSocials';
 
 export default function PageContact() {
   return (
@@ -14,9 +14,8 @@ export default function PageContact() {
       </Head>
 
       <PageWrapper>
-        <HeroPagina heroTitle="hablamos?" heroImage="contact-hero.png" />
-
-        <ContactoRedes />
+        <PageHero heroTitle="hablamos?" heroImage="contact-hero.png" />
+        <ContactSocials />
       </PageWrapper>
     </>
   );

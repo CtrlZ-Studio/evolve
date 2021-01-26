@@ -5,7 +5,7 @@ import { childVariants } from 'utils/framer';
 const HomeBody = () => {
   return (
     <motion.section
-      className="w-full lg:w-2/5 lg:h-screen flex flex-col space-y-12 justify-center border border-gray-300"
+      className="w-full lg:w-2/5 lg:h-screen flex flex-col space-y-12 justify-center "
       variants={childVariants}
     >
       <p className="tw-body">

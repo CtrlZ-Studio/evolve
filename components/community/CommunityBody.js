@@ -9,7 +9,7 @@ const CommunityBody = () => {
   return (
     <BodyWrapper>
       <motion.div variants={childVariants}>
-        <p>
+        <p className="tw-body">
           Desde el equipo de Evolve Sport Material tenemos un compromiso con la
           actividad física y la salud. Por este motivo, queremos que formes
           parte de nuestra comunidad. En nuestras redes sociales podrás
