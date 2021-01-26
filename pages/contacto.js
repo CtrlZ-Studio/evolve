@@ -10,7 +10,7 @@ export default function PageContact() {
   return (
     <>
       <Head>
-        <title>{WEB_NAME}</title>
+        <title>{WEB_NAME} | Contacto</title>
       </Head>
 
       <PageWrapper>

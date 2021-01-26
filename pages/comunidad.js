@@ -10,7 +10,7 @@ export default function PageComunidad() {
   return (
     <>
       <Head>
-        <title>{WEB_NAME}</title>
+        <title>{WEB_NAME} | Comunidad</title>
       </Head>
 
       <PageWrapper>

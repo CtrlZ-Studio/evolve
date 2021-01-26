@@ -27,7 +27,7 @@ const NavLinks = ({ setToggleDrawer }) => {
   return (
     <div className="hidden lg:flex lg:justify-between lg:w-3/5 lg:text-base text-gray-600 font-semibold border border-gray-300">
       {links.map((link) => (
-        <Link href={link.slug}>
+        <Link href={link.slug} key={link.slug}>
           <a
             onClick={() => {
               link.method;

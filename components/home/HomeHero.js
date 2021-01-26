@@ -28,7 +28,7 @@ const HomeHero = () => {
         variants={childVariants}
       >
         <Image
-          src="/home.png"
+          src="/home-hero.png"
           layout="responsive"
           height={3}
           width={2}

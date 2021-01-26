@@ -37,8 +37,11 @@ const CatalogueBody = () => {
         className="flex flex-wrap justify-between mt-6 lg:mt-6"
         variants={childVariants}
       >
-        {keywords.map((word) => (
-          <span className="font-bold uppercase text-gray-600 text-sm lg:text-base">
+        {keywords.map((word, index) => (
+          <span
+            className="font-bold uppercase text-gray-600 text-sm lg:text-base"
+            key={index}
+          >
             {word}
           </span>
         ))}

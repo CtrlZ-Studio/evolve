@@ -10,7 +10,7 @@ export default function PageHome() {
   return (
     <>
       <Head>
-        <title>{WEB_NAME}</title>
+        <title>{WEB_NAME} | Inicio</title>
       </Head>
 
       <PageWrapper>

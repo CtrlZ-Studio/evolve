@@ -9,7 +9,7 @@ export default function PageCatalogo() {
   return (
     <>
       <Head>
-        <title>{WEB_NAME}</title>
+        <title>{WEB_NAME} | Catálogo</title>
       </Head>
 
       <PageWrapper>
