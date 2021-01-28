@@ -28,6 +28,14 @@ body {
   @apply text-base lg:text-base 2xl:text-lg leading-relaxed;
 }
 
+.tw-selected {
+  @apply text-black tw-animation;
+}
+
+.tw-animation {
+  @apply transition duration-700 ease-in-out;
+}
+
 /* Start purging... */
 /* Start purging... */
 @tailwind utilities;

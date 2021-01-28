@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-import { childVariants } from 'utils/framer';
+import { childVariants } from 'utils/framer/variants';
 
 import BodyWrapper from 'components/shared/BodyWrapper';
 import BtnSocial from 'components/shared/BtnSocial';
@@ -34,12 +34,12 @@ const CatalogueBody = () => {
       </motion.div>
 
       <motion.div
-        className="flex flex-wrap justify-between mt-6 lg:mt-6"
+        className="flex flex-wrap justify-center mt-6"
         variants={childVariants}
       >
         {keywords.map((word, index) => (
           <span
-            className="font-bold uppercase text-gray-600 text-sm lg:text-base"
+            className="font-bold uppercase text-gray-600 text-sm lg:text-base mr-2"
             key={index}
           >
             {word}

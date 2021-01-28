@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-
-import { childVariants } from 'utils/framer';
+import { childVariants } from 'utils/framer/variants';
 
 const SocialItem = ({ label, link, name }) => {
   return (

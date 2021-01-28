@@ -4,7 +4,7 @@ import { AnimatePresence } from 'framer-motion';
 
 import Layout from 'components/nav/Layout';
 
-import 'styles/globals.css';
+import 'styles/index.css';
 
 function handleExitComplete() {
   if (typeof window !== 'undefined') {

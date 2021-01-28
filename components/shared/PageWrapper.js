@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { pageVariants } from 'utils/framer';
+import { pageVariants } from 'utils/framer/variants';
 
 const PageWrapper = ({ children }) => {
   return (

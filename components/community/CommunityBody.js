@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-import { childVariants } from 'utils/framer';
+import { childVariants } from 'utils/framer/variants';
 
 import BodyWrapper from 'components/shared/BodyWrapper';
 import BtnSocial from 'components/shared/BtnSocial';

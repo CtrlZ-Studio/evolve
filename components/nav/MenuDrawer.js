@@ -1,7 +1,7 @@
-import Link from 'next/link';
+import ActiveLink from 'components/nav/ActiveLink';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import { drawerVariants } from 'utils/framer';
+import { drawerVariants } from 'utils/framer/variants';
 
 import IconClose from 'components/icons/IconClose';
 
@@ -30,32 +30,32 @@ const MenuDrawer = ({ toggleDrawer, setToggleDrawer }) => {
               <nav>
                 <ul className="flex flex-col justify-center space-y-12 h-2/3 text-gray-100 text-2xl uppercase">
                   <li>
-                    <Link href="/">
+                    <ActiveLink href="/">
                       <a onClick={() => setToggleDrawer(false)}>
                         ¿Qué es Evolve?
                       </a>
-                    </Link>
+                    </ActiveLink>
                   </li>
                   <li>
-                    <Link href="/catalogo">
+                    <ActiveLink href="/catalogo">
                       <a href="#" onClick={() => setToggleDrawer(false)}>
                         Catálogo
                       </a>
-                    </Link>
+                    </ActiveLink>
                   </li>
                   <li>
-                    <Link href="/comunidad">
+                    <ActiveLink href="/comunidad">
                       <a href="#" onClick={() => setToggleDrawer(false)}>
                         Comunidad
                       </a>
-                    </Link>
+                    </ActiveLink>
                   </li>
                   <li>
-                    <Link href="/contacto">
+                    <ActiveLink href="/contacto">
                       <a href="#" onClick={() => setToggleDrawer(false)}>
                         Contacto
                       </a>
-                    </Link>
+                    </ActiveLink>
                   </li>
                 </ul>
               </nav>

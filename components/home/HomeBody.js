@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 
-import { childVariants } from 'utils/framer';
+import { homeBodyVariants } from 'utils/framer/variants';
 
 const HomeBody = () => {
   return (
     <motion.section
-      className="w-full lg:w-2/5 lg:h-screen flex flex-col space-y-12 justify-center "
-      variants={childVariants}
+      className="w-full lg:w-2/5 lg:h-screen flex flex-col space-y-12 justify-center"
+      variants={homeBodyVariants}
     >
       <p className="tw-body">
         Evolve Sport Material nace con el principal objetivo de abastecer con

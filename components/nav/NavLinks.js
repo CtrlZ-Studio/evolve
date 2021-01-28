@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import ActiveLink from 'components/nav/ActiveLink';
 
 const NavLinks = ({ setToggleDrawer }) => {
   const links = [
@@ -25,17 +25,18 @@ const NavLinks = ({ setToggleDrawer }) => {
   ];
 
   return (
-    <div className="hidden lg:flex lg:justify-between lg:w-3/5 lg:text-base text-gray-600 font-semibold ">
+    <div className="hidden lg:flex lg:justify-between lg:w-3/5 text-gray-500 font-semibold">
       {links.map((link) => (
-        <Link href={link.slug} key={link.slug}>
+        <ActiveLink href={link.slug} key={link.slug}>
           <a
+            className="hover:text-black tw-animation"
             onClick={() => {
               link.method;
             }}
           >
             {link.label}
           </a>
-        </Link>
+        </ActiveLink>
       ))}
     </div>
   );

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-import { headerVariants } from 'utils/framer';
+import { headerVariants } from 'utils/framer/variants';
 
 import NavLogo from 'components/nav/NavLogo';
 import NavLinks from 'components/nav/NavLinks';
