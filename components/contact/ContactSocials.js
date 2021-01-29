@@ -11,7 +11,7 @@ const ContactSocials = () => {
     >
       <SocialItem
         label="email."
-        link="mailto:lokismind@gmail.com"
+        link="mailto:evolvesportmaterial@gmail.com"
         name="evolvesportmaterial@gmail.com"
       />
 
