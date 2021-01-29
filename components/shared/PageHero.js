@@ -21,6 +21,7 @@ const PageHero = ({ heroTitle, heroImage }) => {
       >
         <Image
           className="opacity-50"
+          alt="Persona realizando actividad física."
           src={`/${heroImage}`}
           layout="responsive"
           height={3}

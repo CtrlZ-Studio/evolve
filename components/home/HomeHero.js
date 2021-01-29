@@ -27,6 +27,7 @@ const HomeHero = () => {
       >
         <Image
           src="/home-hero.png"
+          alt="Persona realizando actividad física."
           layout="responsive"
           height={3}
           width={2}

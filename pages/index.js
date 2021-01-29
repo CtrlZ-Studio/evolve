@@ -11,6 +11,10 @@ export default function PageHome() {
     <>
       <Head>
         <title>{WEB_NAME} | Inicio</title>
+        <meta
+          name="description"
+          content="Evolve Sport Material es tu tienda de referencia de material deportivo. En nuestro amplio catálogo podrás encontrar equipos de alta calidad y última generación con los que llevar a cabo todo tipo de rutinas deportivas y de readaptación."
+        />
       </Head>
 
       <PageWrapper>
